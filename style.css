@@ -17,7 +17,7 @@ body {
 }
 
 .header div {
-    margin: 0 100px;
+    margin: 0 200px;
 }
 
 ul {
@@ -41,19 +41,19 @@ a {
     background-color: #1F2937;
     color: white;
     display: flex;
-    padding: 50px 100px;
+    padding: 50px 200px 100px;
     gap: 50px;
 }
 
 .right {
     flex: 1;
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-left: auto;
 }
 
 img {
-    max-height: 200px;
+    max-height: 300px;
     border: 2px solid red;
 }
 
@@ -131,7 +131,7 @@ img {
 
 /* quote */
 .quote {
-    padding: 50px 400px;
+    padding: 125px 400px;
     background-color: #E5E7EB;
 }
 
@@ -140,4 +140,60 @@ img {
     font-weight: light;
     font-style: italic;
     font-family: 'Roboto';
+}
+
+.quote h3 {
+    text-align: right;
+}
+
+/* Call to action */
+.calltoaction {
+    background-color: white;
+}
+
+.content {
+    background-color: #3882F8;
+    display: flex;
+    margin: 100px 300px;
+    padding: 50px 150px;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
+.right-two {
+    flex: 1;
+    text-align: right;
+    /* border: 2px solid red; */
+    margin-left: auto;
+}
+
+.left-two {
+    flex: 2;
+}
+
+.left-two h3 {
+    font-size: 25px;
+}
+
+.left-two p {
+    font-weight: 400;
+}
+
+.right-two button {
+    background-color: #3882F8;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    border-color: white;
+    border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    padding: 50px 0;
+    text-align: center;
+    color: #E5E7EB;
 }
